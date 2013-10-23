@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/primary/programming/eagleCAD/eagle_projects/MONSTR_V0.1/MONSTR_V0.1.brd
 
-Start at      : 17:34:04 (10/22/13)
-End at        : 17:34:18 (10/22/13)
+Start at      : 17:49:21 (10/22/13)
+End at        : 17:49:36 (10/22/13)
 Elapsed time  : 00:00:14
 
 Signals       :    41   RoutingGrid: 5 mil  Layers: 2
@@ -13,7 +13,7 @@ Router memory :   576352
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:04  00:00:02  00:00:03  00:00:02  00:00:03
+Time per pass     :  00:00:00  00:00:03  00:00:03  00:00:03  00:00:02  00:00:03
 Number of Ripups  :         0         7         0         0         0         0
 max. Level        :         0         1         0         0         0         0
 max. Total        :         0        12         0         0         0         0
