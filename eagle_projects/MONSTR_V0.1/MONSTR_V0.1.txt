@@ -1,0 +1,75 @@
+Partlist exported from /Users/primary/programming/eagleCAD/eagle_projects/MONSTR_V0.1/MONSTR_V0.1.sch at 10/21/13 2:52 PM
+
+Part Value               Device              Package               Description                                                                   
+C1   0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C2   2.2nF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C3   10nF                CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C4   0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C5   4.7uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C6   4.7uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C7   22uF                CAP0805             0805                  Capacitor                                                                     
+C8   1uF                 CAP0603-CAP         0603-CAP              Capacitor                                                                     
+C9   1uF                 CAP0603-CAP         0603-CAP              Capacitor                                                                     
+C10  1uF                 CAP0603-CAP         0603-CAP              Capacitor                                                                     
+C11                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C12  0.1uF               C-0603              C0603                                                                                               
+C13                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C14  2.2uF               C-0603              C0603                                                                                               
+C15  0.1uF               C-0603              C0603                                                                                               
+C16  0.1uF               C-0603              C0603                                                                                               
+C17  0.1uF               C-0603              C0603                                                                                               
+C18                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C19  0.1uF               C-0603              C0603                                                                                               
+C20  0.1uF               C-0603              C0603                                                                                               
+C21  0.1uF               C-0603              C0603                                                                                               
+C22  0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C23  0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C24  10uF                CAP1206             1206                  Capacitor                                                                     
+C25                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C26                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C27                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C28                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C32                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C33                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C34                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C35                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C36                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C37                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C38                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C42                      CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C50  4.7uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C51  4.7uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C52  10uF                CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C53  0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C54  0.1uF               CAP0402-CAP         0402-CAP              Capacitor                                                                     
+C55  22uF                CAP0603-CAP         0603-CAP              Capacitor                                                                     
+D4   red                 LED0603             LED-0603              LEDs                                                                          
+JP1  LiPo                M02-JST-2MM-SMT     JST-2-SMD             Header 2                                                                      
+JP7  STAND-OFF           STAND-OFF           STAND-OFF             Stand Off                                                                     
+JP8  STAND-OFF           STAND-OFF           STAND-OFF             Stand Off                                                                     
+JP9  STAND-OFF           STAND-OFF           STAND-OFF             Stand Off                                                                     
+JP10 STAND-OFF           STAND-OFF           STAND-OFF             Stand Off                                                                     
+L3   600ohm              INDUCTOR0805        0805                  Inductors                                                                     
+L4   4.7uH, 1.2A         INDUCTOR.           CDRH2D09              Inductors                                                                     
+PROG CONN_5-2-FTSH-V     CONN_5-2-FTSH-V     FTSH-105-DV                                                                                         
+R1   10k                 RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R2   10k                 RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R3   470                 RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R4   2M                  RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R5   2k                  RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R6   220k                RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R8   33ohm               R-0603              R0603                                                                                               
+R9   33ohm               R-0603              R0603                                                                                               
+R11  470ohm              R-0603              R0603                                                                                               
+R12  220k                RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R13  2M                  RESISTOR0402-RES    0402-RES              Resistor                                                                      
+R14  10k                 RESISTOR0402-RES    0402-RES              Resistor                                                                      
+S2   switch              101-IG              101-IG                                                                                              
+U$3  MK20DX128VLH5       MK20DX128VLH5       MK20DX128VLH5         Teensy 3.0 Processing Unit - MK20DX128VLH5 ARM Cortex M0                      
+U$4  MINI54TAN           MINI54TAN           MINI54TAN             MINI54TAN Bootloader from PJRC.com, preprogrammed with Teensy 3.0 bootloader. 
+U$5  MICROUSB-47589-0001 MICROUSB-47589-0001 MICROUSB-47589-0001                                                                                 
+U1   MPU-9150            MPU-9150QFN-24-NP   QFN-24-NP             9DOF (3mag, 3accel, 3rotat). I2C interface.                                   
+U2   BLE112-A            BLE112-A-VISUAL     BLE112-A              Bluetooth Low Energy single-mode module - Bluetooth 4.0, chip antenna         
+U3   MCP73831            MCP73831            SOT23-5               Microchip's MCP73831                                                          
+U4   TPS61200            TPS61200            QFN-10_PAD            DC to DC Booster                                                              
+Y1   NX3225SA            NX3225SA            CRYSTAL-SMD-3.2_2.5MM 16MHz, 10PF SMD Crystal, NX3225SA                                             

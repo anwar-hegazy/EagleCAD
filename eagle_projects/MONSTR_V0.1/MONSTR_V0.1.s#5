@@ -2407,8 +2407,8 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf</description>
 <wire x1="25.4" y1="-71.12" x2="25.4" y2="63.5" width="0.254" layer="94"/>
 <wire x1="25.4" y1="63.5" x2="-27.94" y2="63.5" width="0.254" layer="94"/>
 <pin name="VREGIN" x="-33.02" y="60.96" length="middle"/>
-<pin name="VOUT33" x="-33.02" y="58.42" length="middle" direction="pwr"/>
-<pin name="VDD" x="-33.02" y="55.88" length="middle" direction="pwr"/>
+<pin name="VOUT33" x="-33.02" y="58.42" length="middle"/>
+<pin name="VDD" x="-33.02" y="55.88" length="middle"/>
 <pin name="ADC0_DM0" x="-33.02" y="43.18" length="middle"/>
 <pin name="ADC0_DP0" x="-33.02" y="40.64" length="middle"/>
 <pin name="VDDA" x="-33.02" y="38.1" length="middle"/>
@@ -2778,8 +2778,8 @@ http://www.digikey.com/product-detail/en/SDR0302-4R7ML/SDR0302-4R7MLCT-ND/212707
 <wire x1="1.7" y1="2" x2="1.7" y2="-2" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-2" x2="-1.7" y2="-2" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="-2" x2="-1.7" y2="2" width="0.127" layer="21"/>
-<text x="2.54" y="1.27" size="0.3048" layer="25">&gt;Name</text>
-<text x="2.54" y="-1.27" size="0.3048" layer="27">&gt;Value</text>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;Name</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -2794,8 +2794,8 @@ http://www.digikey.com/product-detail/en/NX3225SA-16.000000MHZ-T1/644-1100-2-ND<
 <pin name="XTAL@3" x="-17.78" y="-2.54" length="middle"/>
 <pin name="GND@2" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND@4" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<text x="-12.7" y="7.62" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="-7.62" size="1.778" layer="96">&gt;Value</text>
+<text x="-12.7" y="7.62" size="1.778" layer="94">&gt;Name</text>
+<text x="-12.7" y="-7.62" size="1.778" layer="94">&gt;Value</text>
 </symbol>
 <symbol name="BOURNS-SDR0302-SERIES-INDUCTOR">
 <description>Bourne ferrite-core SDR0302 Series inductor. 
@@ -2816,7 +2816,7 @@ http://www.digikey.com/product-detail/en/SDR0302-4R7ML/SDR0302-4R7MLCT-ND/212707
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NX3225SA" prefix="Y" uservalue="yes">
+<deviceset name="NX3225SA" prefix="Y">
 <description>16MHz, 10PF SMD Crystal, NX3225SA 
 http://www.digikey.com/product-detail/en/NX3225SA-16.000000MHZ-T1/644-1100-2-ND</description>
 <gates>
@@ -3874,7 +3874,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="U21" library="TeensyCustom" deviceset="MINI54TAN" device=""/>
 <part name="S2" library="BLE112 Breakout Board v2.1-non-prefixed" deviceset="101-IG" device="" value="switch"/>
 <part name="X1" library="BLE112 Breakout Board v2.1-non-prefixed" deviceset="MICROUSB-47589-0001" device=""/>
-<part name="Y1" library="BenLibrary" deviceset="NX3225SA" device="" value="16MHz"/>
+<part name="Y1" library="BenLibrary" deviceset="NX3225SA" device=""/>
 <part name="L3" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="600ohm"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3929,18 +3929,17 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="R52" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="470"/>
 <part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
-<part name="R54" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="2M"/>
-<part name="R55" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="220K"/>
+<part name="R53" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="2M"/>
+<part name="R54" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="220K"/>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="R40" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
-<part name="R56" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="2M"/>
-<part name="R57" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="220K"/>
+<part name="R55" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="2M"/>
+<part name="R56" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="220K"/>
 <part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="33"/>
 <part name="L1" library="BenLibrary" deviceset="BOURNE-SDR302-SERIES-INDUCTOR" device="" value="SDR302-4R7ML 4.7uH, 1.2A"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603" value="red"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A" value="SPST"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="-SMD-A"/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="R53" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4017,7 +4016,7 @@ provide power)</text>
 <instance part="JP10" gate="G$1" x="434.34" y="-38.1"/>
 <instance part="GND22" gate="1" x="375.92" y="-40.64"/>
 <instance part="GND23" gate="1" x="330.2" y="-38.1"/>
-<instance part="GND24" gate="1" x="292.1" y="-25.4"/>
+<instance part="GND24" gate="1" x="292.1" y="-17.78"/>
 <instance part="C21" gate="G$1" x="290.83" y="241.554"/>
 <instance part="C22" gate="G$1" x="302.26" y="241.554"/>
 <instance part="C30" gate="G$1" x="86.36" y="261.62"/>
@@ -4044,18 +4043,17 @@ provide power)</text>
 <instance part="R52" gate="G$1" x="269.24" y="-5.08" rot="R90"/>
 <instance part="R22" gate="G$1" x="340.36" y="226.06"/>
 <instance part="R41" gate="G$1" x="149.86" y="147.32" rot="R90"/>
-<instance part="R54" gate="G$1" x="309.88" y="-5.08" rot="R90"/>
-<instance part="R55" gate="G$1" x="309.88" y="-25.4" rot="R90"/>
+<instance part="R53" gate="G$1" x="309.88" y="-5.08" rot="R90"/>
+<instance part="R54" gate="G$1" x="309.88" y="-25.4" rot="R90"/>
 <instance part="R20" gate="G$1" x="330.2" y="210.82"/>
 <instance part="R40" gate="G$1" x="142.24" y="147.32" rot="R90"/>
-<instance part="R56" gate="G$1" x="406.4" y="-20.32" rot="R90"/>
-<instance part="R57" gate="G$1" x="396.24" y="-43.18" rot="R90"/>
+<instance part="R55" gate="G$1" x="406.4" y="-20.32" rot="R90"/>
+<instance part="R56" gate="G$1" x="396.24" y="-43.18" rot="R90"/>
 <instance part="R21" gate="G$1" x="337.82" y="205.74"/>
 <instance part="L1" gate="L1" x="347.98" y="2.54"/>
 <instance part="D1" gate="G$1" x="269.24" y="63.5" rot="R90"/>
 <instance part="S1" gate="1" x="254" y="-5.08" rot="R90"/>
 <instance part="GND10" gate="1" x="243.84" y="-7.62"/>
-<instance part="R53" gate="G$1" x="276.86" y="-7.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4249,7 +4247,7 @@ provide power)</text>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="-12.7" x2="292.1" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="-12.7" x2="292.1" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="C52" gate="G$1" pin="2"/>
 </segment>
@@ -4611,19 +4609,15 @@ provide power)</text>
 <label x="281.94" y="2.54" size="1.778" layer="95"/>
 <pinref part="U50" gate="G$1" pin="VIN"/>
 <wire x1="269.24" y1="0" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="2.54" x2="276.86" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="2.54" x2="292.1" y2="2.54" width="0.1524" layer="91"/>
 <junction x="292.1" y="2.54"/>
 <pinref part="C53" gate="G$1" pin="1"/>
 <pinref part="C52" gate="G$1" pin="1"/>
 <pinref part="R52" gate="G$1" pin="2"/>
-<pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="2.54" x2="292.1" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="2.54" x2="327.66" y2="2.54" width="0.1524" layer="91"/>
 <junction x="327.66" y="2.54"/>
 <pinref part="L1" gate="L1" pin="1"/>
-<pinref part="R53" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="-2.54" x2="276.86" y2="2.54" width="0.1524" layer="91"/>
-<junction x="276.86" y="2.54"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4679,8 +4673,8 @@ provide power)</text>
 <junction x="309.88" y="-12.7"/>
 <pinref part="U50" gate="G$1" pin="UVLO"/>
 <pinref part="C53" gate="G$1" pin="2"/>
-<pinref part="R54" gate="G$1" pin="1"/>
-<pinref part="R55" gate="G$1" pin="2"/>
+<pinref part="R53" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -4695,8 +4689,8 @@ provide power)</text>
 <wire x1="373.38" y1="-35.56" x2="396.24" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="396.24" y="-35.56"/>
 <wire x1="396.24" y1="-27.94" x2="396.24" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="R56" gate="G$1" pin="1"/>
-<pinref part="R57" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND1" class="0">
@@ -4709,13 +4703,13 @@ provide power)</text>
 <wire x1="309.88" y1="-33.02" x2="309.88" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="-33.02" x2="299.72" y2="-33.02" width="0.1524" layer="91"/>
 <label x="299.72" y="-33.02" size="1.778" layer="95"/>
-<pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="-48.26" x2="396.24" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="-50.8" x2="388.62" y2="-50.8" width="0.1524" layer="91"/>
 <label x="388.62" y="-50.8" size="1.778" layer="95"/>
-<pinref part="R57" gate="G$1" pin="1"/>
+<pinref part="R56" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -4731,6 +4725,13 @@ provide power)</text>
 <wire x1="269.24" y1="-12.7" x2="254" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
 <wire x1="254" y1="-12.7" x2="254" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PS" class="0">
+<segment>
+<wire x1="332.74" y1="-15.24" x2="327.66" y2="-15.24" width="0.1524" layer="91"/>
+<label x="327.66" y="-15.24" size="1.778" layer="95"/>
+<pinref part="U50" gate="G$1" pin="PS"/>
 </segment>
 </net>
 <net name="USBVCC" class="0">
@@ -4766,7 +4767,7 @@ provide power)</text>
 <wire x1="406.4" y1="-12.7" x2="416.56" y2="-12.7" width="0.1524" layer="91"/>
 <label x="391.16" y="-12.7" size="1.778" layer="95"/>
 <pinref part="C55" gate="G$1" pin="1"/>
-<pinref part="R56" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="256.54" x2="317.5" y2="256.54" width="0.1524" layer="91"/>
@@ -4779,7 +4780,7 @@ provide power)</text>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TEENSY3V3" class="1">
+<net name="TEENSY3V3" class="0">
 <segment>
 <pinref part="U20" gate="G$1" pin="VOUT33"/>
 <wire x1="373.38" y1="251.46" x2="369.57" y2="251.46" width="0.1524" layer="91"/>
@@ -4918,36 +4919,11 @@ provide power)</text>
 <pinref part="U30" gate="G$1" pin="P0_5"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U50" gate="G$1" pin="PS"/>
-<wire x1="332.74" y1="-15.24" x2="276.86" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="-15.24" x2="276.86" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="R53" gate="G$1" pin="1"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,332.74,-20.32,GND,GND1,,,,"/>
-<approved hash="102,1,332.74,-22.86,PAD,GND,,,,"/>
-<approved hash="102,1,332.74,-25.4,PAD,GND,,,,"/>
-<approved hash="102,1,332.74,-27.94,PAD,GND,,,,"/>
-<approved hash="102,1,368.3,-25.4,PAD,GND,,,,"/>
-<approved hash="102,1,368.3,-22.86,PAD,GND,,,,"/>
-<approved hash="102,1,368.3,-20.32,PGND,GND,,,,"/>
-<approved hash="102,1,332.74,-10.16,VIN,VBATT,,,,"/>
 <approved hash="201,1,332.74,-20.32,GND,GND\, GND1,,,,"/>
-<approved hash="104,1,96.52,251.46,U30,AVDD,TEENSY3V3,,,"/>
-<approved hash="104,1,96.52,248.92,U30,AVDD,TEENSY3V3,,,"/>
-<approved hash="104,1,96.52,233.68,U30,VDD_USB,TEENSY3V3,,,"/>
-<approved hash="104,1,124.46,205.74,U30,DVDD,TEENSY3V3,,,"/>
-<approved hash="104,1,373.38,251.46,U20,VOUT33,TEENSY3V3,,,"/>
-<approved hash="104,1,373.38,248.92,U20,VDD,TEENSY3V3,,,"/>
-<approved hash="104,1,292.1,55.88,U51,VIN,USBVCC,,,"/>
-<approved hash="104,1,312.42,55.88,U51,VBAT,VBATT,,,"/>
-<approved hash="104,1,312.42,50.8,U51,VSS,GND,,,"/>
 <approved hash="105,1,147.32,281.94,N$3,,,,,"/>
 <approved hash="108,1,53.34,172.72,N$3,,,,,"/>
 <approved hash="108,1,147.32,304.8,N$3,,,,,"/>
